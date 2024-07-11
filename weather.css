@@ -18,6 +18,7 @@ body{
     border-radius:20px;
     padding: 40px 35px;
     text-align: center;
+    margin-top: 20px;
 }
 
 .search{
@@ -55,7 +56,7 @@ body{
 
 
 .weather-icon{
-    width: 170px;
+    width: 150px;
     margin-top: 30px;
 }
 
@@ -92,4 +93,24 @@ body{
 .humidity .wind{
     font-size: 28px;
     margin-top: -6px;
+}
+
+footer{
+    border-radius: 30px;
+    padding: 20px;
+    max-width: 400px;
+    font-size: 27px;
+    font-weight:20px;
+    display: flex;
+    justify-content: space-around;
+    max-height: 70px;
+    background:linear-gradient(135deg,#00feba,#5b548a);
+}
+
+.made-by{
+    color: #00feba;
+}
+
+.name{
+    color: aqua;
 }
