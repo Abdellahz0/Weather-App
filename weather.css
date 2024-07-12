@@ -98,12 +98,14 @@ body{
 footer{
     border-radius: 30px;
     padding: 20px;
-    max-width: 400px;
-    font-size: 27px;
+    max-width: 500px;
+    font-size: 24px;
     font-weight:20px;
     display: flex;
     justify-content: space-around;
     max-height: 70px;
+    position: absolute;
+    margin: 130px;
     background:linear-gradient(135deg,#00feba,#5b548a);
 }
 
@@ -121,4 +123,19 @@ footer{
     margin-top: 20px;
     font-size: 20px;
     display: none;
+}
+
+
+.weather{
+    animation:trans 2s forwards;
+}
+@keyframes trans{
+    0%{
+        scale: 0;
+        opacity: 0;
+    }
+    100%{
+        scale: 1;
+        opacity: 1;
+    }
 }

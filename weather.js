@@ -4,8 +4,11 @@ const searchbox=document.querySelector(".search input");
 const searchBtn=document.querySelector(".searchbtn");
 const weatherIcon=document.querySelector(".weather-icon");
 
+document.querySelector(".weather").style.display="none";
+
 
 async function checkweather(City){
+
     const response= await fetch(apiUrl+City+`&appid=${apiKey}`);
 
     if(response.status==404){
