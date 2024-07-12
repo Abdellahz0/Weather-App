@@ -105,7 +105,8 @@ footer{
     justify-content: space-around;
     max-height: 70px;
     position: absolute;
-    margin: 130px;
+    margin-left: 37%;
+    margin-top: 30px;
     background:linear-gradient(135deg,#00feba,#5b548a);
 }
 
