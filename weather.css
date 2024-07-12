@@ -114,3 +114,11 @@ footer{
 .name{
     color: aqua;
 }
+
+.error{
+    text-align: left;
+    margin-left: 23px;
+    margin-top: 20px;
+    font-size: 20px;
+    display: none;
+}
